@@ -1,0 +1,31 @@
+{
+  "name": "light-timer",
+  "version": "1.0.0",
+  "description": "Лёгкий таймер без зависимостей: countdown, interval, cron-расписание, Jobs-менеджер, startAt по системным часам, EventEmitter/async-итератор интероп.",
+  "type": "module",
+  "main": "timer.js",
+  "exports": {
+    ".": "./timer.js"
+  },
+  "files": ["timer.js"],
+  "keywords": [
+    "timer",
+    "cron",
+    "schedule",
+    "countdown",
+    "stopwatch",
+    "debounce",
+    "throttle",
+    "retry",
+    "emitter"
+  ],
+  "license": "Apache-2.0",
+  "author": "devoffeed",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devoffeed/light-timer.git"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
